@@ -1,0 +1,13 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Database backups and dumps
+*.sql
+*.sql.gz
+
+# Local dependencies and logs
+vendor/
+node_modules/
+*.log
